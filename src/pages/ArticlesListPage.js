@@ -1,8 +1,13 @@
 import React from 'react';
+import ArticlesList from '../components/articlesList';
+import articles from './article-content';
 
 const ArticlesListPage = () => {    
     return (
-        <h1>This is the ArticlesList page</h1>
+        <>
+        <h1>Articles</h1>
+        <ArticlesList articles={ articles } />
+        </>
     );
 }
 
